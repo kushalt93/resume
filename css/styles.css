@@ -1,23 +1,65 @@
-/****************************************TAG SELECTORS/****************************************/
-
-body {
-    background-color: #EAF6F6;
-    }
-hr{
-   border-style: dotted none none none;
-   border-top-width: 5px;
-   border-color: grey;
-   border-width: 7px;
-   width: 10%;
+/***********************************************TAG SELECTOR*******************************************/
+body{
+    background-color: #ffe3d8;
+    margin: 0%;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+div{
+    background-color: #cfd3ce;
+    padding: 10px;
+    line-height: normal;
 }
 h1{
-    color: #66bfbf;
+    margin: 2.5rem auto 0rem auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5rem;
+    color: #34626c;
 }
-h1:hover{
-    color: blue;
+h2{
+    color: #34626c;
+    margin: 0 auto auto auto;
+
 }
-h3{
-    color: #66bfbf;
+a{
+    color:#34626c;
 }
 
-/****************************************CLASS SELECTORS/****************************************/
+/***********************************************CLASS SELECTOR*******************************************/
+
+.botcloud{
+    position: absolute;
+}
+.topcloud{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.avatar-img{
+    width:25%;
+    float:right;
+    margin-left: 30px;
+}
+
+/*
+font-family: 'Sacramento', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Work Sans', sans-serif;
+palette1
+#ffe3d8
+#bbbbbb
+#03506f
+#0a043c
+
+palette2
+#c6b497
+#cfd3ce
+#839b97
+#34626c
+*/
