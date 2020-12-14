@@ -12,6 +12,13 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript">
+      window.onload = function() {
+      setTimeout (function () {
+       scrollTo(0,0);
+         }, 50);
+      }
+  </script>
   </head>
 <body>
   <div class="container-fluid">
@@ -27,6 +34,22 @@
           <li class="nav-item">
             <a class="nav-link" href="contactMe.html">Message me</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workex">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cert">Certifications</a>
+          </li>
+
           </ul>
         </nav>
   <section class="section1">
@@ -45,63 +68,65 @@
 </div>
 </div>
 </section>
-  <hr>
-  <div>
-    <h2>Work Experience</h2>
-    <h3>bruxAway Inc. - September,2020 - Present</h3>
-    <p>bruxAway is an early stage start-up developing an AI-enabled wearable, which will help dentists in creating an efficient treatment plan for the people suffering from bruxism.</p>
-    <ul>
-      	<li>Built the backend from scratch by identifying multi-functional requirements from key stakeholders.</li> 
-        <li>Designed the database schema to store users’ data most optimally to minimize data processing and storage costs.</li>	
-        <li>Writing reliable and high-quality server-side RESTful APIs to enhance the patient-dentist interaction.</li>	
-        <li>Synchronizing real-time data from the mobile application with MongoDB for a better user experience.</li>
-        <li>Migrating the server to the cloud (Amazon EC2) to improve the performance of web and mobile applications.</li>	
-        <li>Collaborating with the other team members to integrate backend with frontend to ensure better usability of the application.</li>
-    </ul>
-    <h3>Tata Consultancy Services - June,2012 - June,2018</h3>
-    <p>TCS is a global leader in IT services, consulting & business solutions with a large network of innovation & delivery centers.</p>
-    <ul>
-      <li>Worked in the financial services domain, developing ad hoc Oracle BI reports for various financial institutions.</li> 
-      <li>Designed and developed BI dashboard and reports using Pl/SQL, enabling the client to explore insights through the combination of structured and unstructured data to minimize the financial risks.</li>
-      <li>Optimized Pl/SQL queries, reducing the generation time of BI reports by an average of 60%.</li>	
-      <li>Mentored three interns in delivering projects around Oracle BI.</li> 
-    </ul>
-  </div>
-  <hr>
-  <div>
-    <h2>Education</h2>
-    <h3>Master of Science</h3>
-    <h4>California State University, Sacramento - May,2021</h4>
-    <p>Relevant Coursework: Algorithms and Paradigms, Systems Programming in UNIX, Programming Language Principles, Data Model and Data Management System, Database System Design, Data Warehousing and Data Mining, Computer Security. </p>
-    <h2>Bachelor of Science</h2>
-    <h4>Vellore Institute of Technology, India - May, 2016</h4>
-    <p>Relevant coursework: Object-oriented design, Data structures and Algorithms, Algorithm Design and Analysis, Programming Language Translators, Database Systems, Software Project Management, Computer Networks.</p>
-  </div>
-<hr>
-  <div>
-    <h2>Projects</h2>
-    <ul>
-      <li>Box office revenue prediction: Trained artificial neural network to predict worldwide box office revenue and achieved 75 percent prediction accuracy.</li>
-      <li>Security and Usability of Video CAPTCHA: Developed a simple UI to authenticate users using video CAPTCHA, increasing the security of the system by successfully preventing 90% of the bots from logging in to the system.</li>
-      <li>Streaming Data Analysis: ETL raw streaming data from Meetup API into the Kibana dashboard using amazon Kinesis, and Elasticsearch to analyze the response rate of the Meetup invite requests. </li>
-    </ul>
-  </div>
-<hr>
-  <div>
-    <h2>Certifications</h2>
-    <p>AWS Certifications</p>
-    <p>Udemy Certifications</p>
-  </div>
-<hr>
-  <div>
-    <h2>Skills</h2>
+  <div class="container-fluid bodyofcv">
+    <div class="row">
+      <h2 id="workex">Work Experience</h2>
+      <h3>bruxAway Inc. - September,2020 - Present</h3>
+      <p>bruxAway is an early stage start-up developing an AI-enabled wearable, which will help dentists in creating an efficient treatment plan for the people suffering from bruxism.</p>
       <ul>
-        <li>Programming Languages: JavaScript, Python, NoSQL, Linux/Unix Shell, SQL, PL/SQL, HTML/CSS, C. </li>
-        <li>Databases and Web Frameworks: MongoDB, MySQL, ExpressJS, NodeJS, AngularJS, Bootstrap.</li>
-        <li>Tools: GitHub, Postman, Visual Studio code, Jupyter Notebook, Android studio, Oracle BI. </li>
-        <li>OS: Linux, macOS, Windows.</li>
-        <li>Cloud Platform: Amazon Web Services.</li>
+          <li>Built the backend from scratch by identifying multi-functional requirements from key stakeholders.</li> 
+          <li>Designed the database schema to store users’ data most optimally to minimize data processing and storage costs.</li>	
+          <li>Writing reliable and high-quality server-side RESTful APIs to enhance the patient-dentist interaction.</li>	
+          <li>Synchronizing real-time data from the mobile application with MongoDB for a better user experience.</li>
+          <li>Migrating the server to the cloud (Amazon EC2) to improve the performance of web and mobile applications.</li>	
+          <li>Collaborating with the other team members to integrate backend with frontend to ensure better usability of the application.</li>
       </ul>
+      <h3>Tata Consultancy Services - June,2012 - June,2018</h3>
+      <p>TCS is a global leader in IT services, consulting & business solutions with a large network of innovation & delivery centers.</p>
+      <ul>
+        <li>Worked in the financial services domain, developing ad hoc Oracle BI reports for various financial institutions.</li> 
+        <li>Designed and developed BI dashboard and reports using Pl/SQL, enabling the client to explore insights through the combination of structured and unstructured data to minimize the financial risks.</li>
+        <li>Optimized Pl/SQL queries, reducing the generation time of BI reports by an average of 60%.</li>	
+        <li>Mentored three interns in delivering projects around Oracle BI.</li> 
+      </ul>
+    </div>
+    <hr>
+    <div>
+      <h2 id="education">Education</h2>
+      <h3>Master of Science</h3>
+      <h4>California State University, Sacramento - May,2021</h4>
+      <p>Relevant Coursework: Algorithms and Paradigms, Systems Programming in UNIX, Programming Language Principles, Data Model and Data Management System, Database System Design, Data Warehousing and Data Mining, Computer Security. </p>
+      <h2>Bachelor of Science</h2>
+      <h4>Vellore Institute of Technology, India - May, 2016</h4>
+      <p>Relevant coursework: Object-oriented design, Data structures and Algorithms, Algorithm Design and Analysis, Programming Language Translators, Database Systems, Software Project Management, Computer Networks.</p>
+    </div>
+  <hr>
+    <div>
+      <h2 id="projects">Projects</h2>
+      <ul>
+        <li>Box office revenue prediction: Trained artificial neural network to predict worldwide box office revenue and achieved 75 percent prediction accuracy.</li>
+        <li>Security and Usability of Video CAPTCHA: Developed a simple UI to authenticate users using video CAPTCHA, increasing the security of the system by successfully preventing 90% of the bots from logging in to the system.</li>
+        <li>Streaming Data Analysis: ETL raw streaming data from Meetup API into the Kibana dashboard using amazon Kinesis, and Elasticsearch to analyze the response rate of the Meetup invite requests. </li>
+      </ul>
+    </div>
+  <hr>
+    <div>
+      <h2 id="cert">Certifications</h2>
+      <p>AWS Certifications</p>
+      <p>Udemy Certifications</p>
+    </div>
+  <hr>
+    <div>
+      <h2 id="skills">Skills</h2>
+        <ul>
+          <li>Programming Languages: JavaScript, Python, NoSQL, Linux/Unix Shell, SQL, PL/SQL, HTML/CSS, C. </li>
+          <li>Databases and Web Frameworks: MongoDB, MySQL, ExpressJS, NodeJS, AngularJS, Bootstrap.</li>
+          <li>Tools: GitHub, Postman, Visual Studio code, Jupyter Notebook, Android studio, Oracle BI. </li>
+          <li>OS: Linux, macOS, Windows.</li>
+          <li>Cloud Platform: Amazon Web Services.</li>
+        </ul>
+    </div>
   </div>
+  
   </body>
 </html>

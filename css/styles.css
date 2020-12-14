@@ -1,9 +1,10 @@
 /***********************************************TAG SELECTOR*******************************************/
 body{
-    background-color: #cfd3ce;
     margin: auto;
     font-family: 'Ubuntu', sans-serif; 
     text-align: left;
+    background-image: url('C:\Users\ktopnani\Desktop\WebDevelopment\webSite\resume\Images\background.jpeg') ;
+    background-size: auto;
 }
 h1{
     font-family: 'Montserrat-Black', sans-serif;
@@ -19,7 +20,15 @@ h1{
     margin: 7%;
 }
 .container-fluid{
-    padding: 3% 3%;
+     padding: 3% 3% ;
+     word-wrap: break-word;
+     
+}
+.bodyofcv{
+    background-color: #cfd3ce;
+    word-wrap: break-word;
+    height: fit-content;
+    width: 80%;
 }
 
 /***********************************************ID SELECTOR*******************************************/
