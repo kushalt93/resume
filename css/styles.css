@@ -3,14 +3,16 @@ body{
     margin: auto;
     font-family: 'Ubuntu', sans-serif; 
     text-align: left;
-    background-image: url('C:\Users\ktopnani\Desktop\WebDevelopment\webSite\resume\Images\background.jpeg') ;
-    background-size: auto;
+    background-image: url("../../resume/Images/background1.jpg");
+
 }
 h1{
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
 }
+
+
 /***********************************************CLASS SELECTOR*******************************************/
 .section1{
     background-color: #c6b497;
@@ -30,7 +32,18 @@ h1{
     height: fit-content;
     width: 80%;
 }
-
+.logo{
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    margin: 2px;
+}
+.tech-used{
+    width: 10%;
+    height: 10%;
+    display: inline-flex ;
+    
+}
 /***********************************************ID SELECTOR*******************************************/
 
 
