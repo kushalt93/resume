@@ -1,15 +1,27 @@
 /***********************************************TAG SELECTOR*******************************************/
 body{
     margin: auto;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Source Code Pro', monospace;
     text-align: left;
     background-image: url("../../resume/Images/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
 
 }
-h1{
-    font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    display: inline;
+}
+h4{
+    font-size: 1.5rem;
+    line-height: 1;
+    display: inline;
+}
+footer{
+    background-color:#c6b497;
 }
 
 
@@ -20,11 +32,12 @@ h1{
 .profilePic{
     position:relative;
     margin: 7%;
+    width: 250px;
+    height: 250px;
 }
 .container-fluid{
      padding: 3% 3% ;
-     word-wrap: break-word;
-     
+     word-wrap: break-word
 }
 .bodyofcv{
     background-color: #cfd3ce;
@@ -38,19 +51,47 @@ h1{
     height: 2rem;
     margin: 2px;
 }
+.logo:hover{
+    transform: scale(1.7);
+    opacity: 100%;
+    margin: 10px;
+}
 .tech-used{
     width: 10%;
-    height: 10%;
-    display: inline-flex ;
-    
+    height: 17%;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 15px;
 }
+.h4{
+    position: relative;
+    margin: 7%;
+}
+.nav-link{
+    padding-left: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+.intro{
+    font-size: 1.5rem;
+    margin: 7%;
+    float: right;
+}
+/* .bg-icon{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    display: inline;
+    margin: 70px;
+    z-index: 1;
+} */
+
 /***********************************************ID SELECTOR*******************************************/
-
-
 
 /*
 font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif; 
+font-family: 'Sacramento', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Source Code Pro', monospace;
 palette1
 #ffe3d8
 #bbbbbb
