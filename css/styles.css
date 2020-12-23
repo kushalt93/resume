@@ -76,6 +76,13 @@ footer{
     margin: 7%;
     float: right;
 }
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-brand{
+    padding-left: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
 /* .bg-icon{
     height: 10%;
     width: 10%;
