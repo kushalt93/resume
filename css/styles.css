@@ -1,12 +1,12 @@
 /***********************************************TAG SELECTOR*******************************************/
 body{
-    margin: auto;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Varela', sans-serif;
     text-align: left;
     background-color: #d7e4fa;
+
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'B612', sans-serif;;
     font-size: 2rem;
     line-height: 1;
     display: inline;
@@ -15,20 +15,18 @@ h4{
     font-size: 1.5rem;
     line-height: 1;
     display: inline;
+    font-family: 'Varela', sans-serif;
 }
 figure{
     display: inline-block;
     
 }
-a{
-    
-}
+
 
 
 /***********************************************CLASS SELECTOR*******************************************/
 .section1{
-    background-color: #394867;
-    color: white;
+    background-color: #c6b497;
 }
 
 .profilePic{
@@ -39,7 +37,9 @@ a{
 }
 .container-fluid{
      padding: 2% 2%;
-     word-wrap: break-word
+     word-wrap: break-word;
+     /* visibility: hidden; */
+
 }
 .bodyofcv{
     background-color: #9ba4b4;
@@ -72,7 +72,7 @@ a{
 }
 .nav-link{
     padding-left: 10px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 .intro{
     font-size: 1.5rem;
@@ -84,7 +84,7 @@ a{
 }
 .navbar-brand{
     padding-left: 10px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 .carousel-item{
     height: 200px;
@@ -98,11 +98,11 @@ a{
     margin: 10px;
     
 }
-.footer{
-    background-color:#394867;
-    margin: 0;
-    padding: 0;
-    color: white;
+.bg-icon{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: -1;
 }
 /* .bg-icon{
     height: 10%;
@@ -120,6 +120,9 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive;
 font-family: 'Abril Fatface', cursive;
 font-family: 'Source Code Pro', monospace;
+
+font-family: 'B612', sans-serif;
+font-family: 'Varela', sans-serif;
 palette1
 #ffe3d8
 #bbbbbb

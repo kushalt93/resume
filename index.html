@@ -9,8 +9,7 @@
     <link rel="icon" href="Images/009-profile.png">
     <!-- Google fonts CDN -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,900&family=Sacramento&family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600&display=swap" rel="stylesheet">  
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Varela&display=swap" rel="stylesheet">
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -29,6 +28,16 @@
   </script>
   </head>
 <body>
+  <!-- Background Images -->
+  <img src="Images/001-forest.png" alt="Forest" class="bg-icon" style="margin-top: 35%; margin-left: 1%;">
+  <img src="Images/002-musical-notes.png" alt="Music" class="bg-icon" style="margin-top: 50%; margin-left: 90%;">
+  <img src="Images/003-taj-mahal.png" alt="Taj M" class="bg-icon" style="margin-top: 65%; margin-left: 5%;">
+  <img src="Images/006-samosa.png" alt="Food" class="bg-icon" style="margin-top: 80%; margin-left: 87%;">
+  <img src="Images/007-laddu.png" alt="Sweet" class="bg-icon" style="margin-top: 95%; margin-left: 3%;">
+  <img src="Images/008-mountain.png" alt="Mountains" class="bg-icon" style="margin-top: 110%; margin-left: 89%;">
+  <img src="Images/laptop.png" alt="Mountains" class="bg-icon" style="margin-top: 125%; margin-left: 4%;">
+  
+  <!-- Navigation Bar -->
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,6 +70,7 @@
           </li>
       </ul>
         </nav>
+  <!-- Intro Card -->
   <section class="section1">
     <div class="container-fluid">
     <div class= "row">
@@ -91,17 +101,12 @@
     </div>
   </div>
 </div>
-<!-- <div>
-  <img src="Images/004-mahabali.png" alt="pic" class="bg-icon">
-<img src="Images/005-ganesha.png" alt="pic" class="bg-icon">
-<img src="Images/002-musical-notes.png" alt="pic" class="bg-icon">
-<img src="Images/001-forest.png" alt="pic" class="bg-icon">
-<img src="Images/003-taj-mahal.png" alt="pic" class="bg-icon">
-<img src="Images/008-mountain.png" alt="pic" class="bg-icon">
-</div> -->
 </section>
+
+<!-- Main body card -->
   <div class="container-fluid bodyofcv">
     <div class="row">
+<!-- Work Experience -->
       <h3 id="workex">Work Experience</h3><br>
       </div>
       <div class="row">
@@ -150,24 +155,26 @@
       </div>
   </div>
     <hr>
+  <!-- Education -->
     <div>
       <h3 id="education">Education</h3><br>
-      <h4>Master of Science - Computer Science</h4>
-      <br><img src="Images/location.png" alt="" style="height: 20px; width: 20px; display: inline">
+      <h4>Master of Science - Computer Science<br>
+      <a href="https://www.csus.edu/" target="_balnk">California State University, Sacramento</a><br></h4>
+      <img src="Images/location.png" alt="" style="height: 20px; width: 20px; display: inline">
       <p style="display: inline;">Sacramento, California</p>
       <p>Relevant Coursework: Algorithms and Paradigms, Systems Programming in UNIX, 
         Programming Language Principles, Data Model and Data Management System, Database System Design, 
         Data Warehousing and Data Mining, Computer Security.</p>
-      <p><a href="https://www.csus.edu/" target="_balnk">California State University, Sacramento</a></p>
-      <h4>Bachelor of Science - Computer Science</h4>
-      <br><img src="Images/location.png" alt="" style="height: 20px; width: 20px; display: inline">
+      <h4>Bachelor of Science - Computer Science <br>
+      <a href="https://vit.ac.in/" target="_balnk" style="margin-bottom: 50px;">Vellore Institute of Technology, India</a>- May, 2016</h4><br>
+      <img src="Images/location.png" alt="" style="height: 20px; width: 20px; display: inline">
       <p style="display: inline;">India</p>
       <p>Relevant coursework: Object-oriented design, Data structures and Algorithms, 
         Algorithm Design and Analysis, Programming Language Translators, Database Systems, 
         Software Project Management, Computer Networks.</p>
-      <p><a href="https://vit.ac.in/" target="_balnk">Vellore Institute of Technology, India</a>- May, 2016</p>
     </div>
   <hr>
+  <!-- Projects -->
     <div>
       <h3 id="projects">Projects</h3>
       <ul>
@@ -186,6 +193,8 @@
       </ul>
     </div>
   <hr>
+
+  <!-- Skill Carousel -->
     <div> 
       <h3 id="skills">Skills</h3>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval= 3000>
@@ -287,11 +296,6 @@
               <img src="Images/AndroidStudio.png" class="skill">
               <figcaption>Android</figcaption>
               </figure>
-
-              <!-- <figure>
-              <img src="Images/obiee.png" class="skill">
-              <figcaption>Oracle BI</figcaption>
-              </figure> -->
           </div>
           <div class="carousel-item">
             <h4>Operating Systems</h4><br><br>
@@ -335,14 +339,16 @@
         </ul> -->
     </div>
   </div>
-  <footer>
-    <div class="container-fluid footer">
-      <div class="row">
-        <div class = "col-lg-6 col-md-6">&copy2020, Kushal Topnani</div>
-        <div class = "col-lg-6 col-md-6" style="text-align: right;">v1.0</div>
-      </div>
-    </div>
-  </footer>
 
+  <!-- Footer -->
+
+  <footer style="background-color:#c6b497">
+    <table style="width: 100%;">
+      <tr>
+        <td>&copy2020, Kushal Topnani</td>
+        <td style="text-align: right;">v1.0</td>
+      </tr>
+    </table>
+  </footer>
   </body>
 </html>
