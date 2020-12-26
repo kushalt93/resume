@@ -2,7 +2,7 @@
 body{
     font-family: 'Varela', sans-serif;
     text-align: left;
-    background-color: #d7e4fa;
+    background-color: #f5fff5;
 
 }
 h3{
@@ -42,7 +42,7 @@ figure{
 
 }
 .bodyofcv{
-    background-color: #9ba4b4;
+    background-color: #cfd3ce;
     color: black;
     word-wrap: break-word;
     height: fit-content;
